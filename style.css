@@ -168,7 +168,7 @@ body {
     
 }
 h2 {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 50px;
     color: hsl(271, 36%, 24%);
 }
@@ -177,14 +177,9 @@ h2 {
     color: hsl(270, 7%, 64%);
     line-height: 30px;
 }
-#fa-right {
-    background-color: hsl(271, 36%, 24%);
-    height: 20px;
-    padding: 4px;
-    border-radius: 30px;
+
     
-    
-}
+
 
 @media (max-width:480px) {
     body {
@@ -200,14 +195,17 @@ h2 {
         display: flex;
     }
     .chat {
-        width: 60%;
+        width: 70%;
         margin: 0 auto;
         height: 530px;
         margin-top: 50px;
+        margin-bottom: 10px;
         
     }
     .text {
-        width: 80%;
+        width: 90%;
+        padding-left: 40px;
+        padding-right: 40px;
         
     }
     h2 {
@@ -215,7 +213,7 @@ h2 {
         
     }
     #textt {
-        font-size: 15px;
+        font-size: 12px;
     }
     .purple-part {
         position: absolute;
@@ -223,7 +221,8 @@ h2 {
         width: 40% ;
         margin-top: -400px;
     }
-    #fa-right {
-        margin-left: 100px;
+    
+    .white-top {
+        left: 75px;
     }
 }
